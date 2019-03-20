@@ -28,3 +28,6 @@ generate_pointcloud.py ./rgb.jpg ./depth.png ./point_cloud.ply
 ./rgbd_sequence2pointclouds path_to_files
 ./alignclouds_use_camera_pose path_to_files
 ```
+
+### XYZ2PointCloud
+- 在MATLAB中将三维坐标数据转变成点云格式，详细说明见`plywrite.m`与`stlwrite.m`
